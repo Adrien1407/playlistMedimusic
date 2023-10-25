@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <div>MediMusic</div>
+          <ul>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="playlist.html">La playlist</a></li>
+            <li><a href="newSound.html">Ajoute ton son!</a></li>
+          </ul>
+        </nav>
+      </header>
+    <section>
+        <h2>Envoie nous ton meilleur son !</h2>
+        <form action="submit_url_here" method="POST">
+          <!-- Text Input for Name -->
+          <label for="name">Titre:</label>
+          <input type="text" id="name" name="name" required />
+      <!-- Text Input for Name -->
+      <label for="name">Titre:</label>
+      <input type="text" id="name" name="name" required />
+
+          <!-- Dropdown for Playlist Genre -->
+          <label for="genre">Select Genre:</label>
+          <select id="genre" name="genre">
+            <option value="rock">Rock</option>
+            <option value="pop">Pop</option>
+            <option value="jazz">Jazz</option>
+            <option value="Electro">Electro</option>
+            <option value="Rap">Rap</option>
+            <option value="Musique Mongole">Musique Mongole</option>
+            </option></select
+          >
+
+          <!-- Textarea for Playlist Description -->
+          <label for="description">Description:</label>
+          <textarea
+            id="description"
+            name="description"
+            rows="4"
+            cols="50"
+            required
+          ></textarea>
+
+          <!-- Submit Button -->
+          <input type="submit" value="Go!" />
+        </form>
+      </section>
+</body>
+</html>
